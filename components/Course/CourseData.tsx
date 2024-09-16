@@ -1,0 +1,111 @@
+"use client";
+import image1 from "@/public/images/courses/CourseImg1.png";
+import image2 from "@/public/images/courses/CourseImg2.png";
+import image3 from "@/public/images/courses/CourseImg3.png";
+import image4 from "@/public/images/courses/CourseImg4.png";
+import image5 from "@/public/images/courses/CourseImg5.png";
+import image6 from "@/public/images/courses/CourseImg6.png";
+
+const AllCourses = [
+  {
+    id: 1,
+    image: image1,
+    plays: "20",
+    heading: "Mission fundamentals",
+    sellingPrice: "$560",
+    costPrice: "$560",
+    review: 4.8,
+    NumStudents: 413,
+    tag: "Mission",
+  },
+  {
+    id: 2,
+    image: image2,
+    plays: "20",
+    heading: "Leadership Development",
+    sellingPrice: "$560",
+    costPrice: "$560",
+    review: 4.8,
+    NumStudents: 413,
+    tag: "Leadership",
+  },
+  {
+    id: 3,
+    image: image3,
+    plays: "20",
+    heading: "Vocational Training",
+    sellingPrice: "$560",
+    costPrice: "$560",
+    review: 4.8,
+    NumStudents: 413,
+    tag: "Entrepreneurship",
+  },
+  {
+    id: 4,
+    image: image4,
+    plays: "20",
+    heading: "Campus Mission",
+    sellingPrice: "$560",
+    costPrice: "$560",
+    review: 4.8,
+    NumStudents: 413,
+    tag: "Mission",
+  },
+  {
+    id: 5,
+    image: image5,
+    plays: "20",
+    heading: "Leadership Development",
+    sellingPrice: "$560",
+    costPrice: "$560",
+    review: 4.8,
+    NumStudents: 413,
+    tag: "Leadership",
+  },
+  {
+    id: 6,
+    image: image6,
+    plays: "20",
+    heading: "Leadership Development",
+    sellingPrice: "$560",
+    costPrice: "$560",
+    review: 4.8,
+    NumStudents: 413,
+    tag: "Leadership",
+  },
+  {
+    id: 7,
+    image: image4,
+    plays: "20",
+    heading: "Mission Deployment",
+    sellingPrice: "$560",
+    costPrice: "$560",
+    review: 4.8,
+    NumStudents: 413,
+    tag: "Mission",
+  },
+  {
+    id: 8,
+    image: image5,
+    plays: "20",
+    heading: "Welding",
+    sellingPrice: "$560",
+    costPrice: "$560",
+    review: 4.8,
+    NumStudents: 413,
+    tag: "Entrepreneurship",
+  },
+  {
+    id: 9,
+    image: image5,
+    plays: "20",
+    heading: "Bag Making",
+    sellingPrice: "$560",
+    costPrice: "$560",
+    review: 4.8,
+    NumStudents: 413,
+    tag: "Entrepreneurship",
+  },
+];
+
+export default AllCourses;
